@@ -14,7 +14,7 @@ import { Checkbox } from "@/app/_components/ui/checkbox";
 interface IFilterValue {
   text: string;
   value: string;
-  icon?: JSX.Element;
+  icon?: React.ReactNode;
   forMultiple?: boolean;
 }
 

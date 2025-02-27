@@ -9,7 +9,7 @@ import { IoGitBranchOutline } from "react-icons/io5";
 interface SidebarItem {
   title: string;
   href: string;
-  icon?: JSX.Element;
+  icon?: React.ReactNode;
   children?: SidebarItem[];
 }
 
